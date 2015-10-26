@@ -1,7 +1,6 @@
 $:.unshift File.expand_path '../lib', File.dirname(__FILE__)
 require "neofugo_client"
 
-require "pry"
 require 'open-uri'
 
 def get_new_room_id
